@@ -1,0 +1,11 @@
+.navbar-bg {
+    width: 100vw;
+    height: 120px;
+    background-image: url("../assets/blog-bg.svg");
+    background-size: auto auto;
+}
+
+
+.navbar-style a, .nav-dot {
+    color: white;
+}
