@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "https://lesterong.netlify.app/"
+    to = "https://lesterong.com"
+    status = 301
+    force = true
