@@ -50,25 +50,33 @@ h3 {
 
 
 /* Style Section 1 */
-.section-1 {
+.section-1-bg {
     height: calc(100vh - 74px);
     background-color: #f8f8fa;
 }
 
-.section-1-left {
-    display: grid;
-    grid-template-rows: 1fr [content] 3fr 1fr;
-}
+@media only screen and (min-width: 1028px) {
+    .section-1 {
+        display: grid;
+        grid-template-rows:  1fr [content] 3fr 1fr;
+        grid-template-columns: [text] 1fr [section] 1fr;
+    }
+    
+    .main-text {
+        grid-row: content;
+        grid-column: text;
+        max-width: 540px;
+    }
 
-.section-1-left div {
-    grid-row: content;
-    align-self: start;
+    .main-img {
+        grid-row: content;
+        grid-column: section;
+    }
 }
 
 .margin-25 {
     margin-bottom: 25px;
 }
-
 
 
 
