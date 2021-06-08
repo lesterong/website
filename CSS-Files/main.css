@@ -1,5 +1,5 @@
 /* Import Nunito Sans and Nunito */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&family=Nunito:wght@700&display=swap');
 
 /* Set font for entire website */
 body {
@@ -10,11 +10,20 @@ body {
 /* Set font for headings */
 h1 {
     font-size: 3.375rem;
-    font-weight: 800
+    font-weight: 800;
+    background: linear-gradient(94.47deg, #0044FF 0%, #0099FF 99.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
     font-size: 3rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: Nunito;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -28,6 +37,7 @@ h2 {
 .navbar-style {
     font-family: 'Nunito';
     font-weight: 700;
+    background-color: #f8f8fa;
 }
 
 .navbar-style a {
@@ -39,31 +49,33 @@ h2 {
 }
 
 
-
-.logo:hover {
-    background: url("../assets/logo-fill.png");
-    background-size: 88px 34px;
-    background-repeat: no-repeat;
-    animation-name: expand;
-    animation-duration: 0.9s;
-    animation-timing-function: ease;
+/* Style Section 1 */
+.section-1 {
+    height: calc(100vh - 74px);
+    background-color: #f8f8fa;
 }
 
-@keyframes expand {
-    0% {
-        background-size: 0 34px;
-    }
-
-    100% {
-        background-size: 88px 34px;
-    }
+.section-1-left {
+    display: grid;
+    grid-template-rows: 1fr [content] 3fr 1fr;
 }
 
+.section-1-left div {
+    grid-row: content;
+    align-self: start;
+}
+
+.margin-25 {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+/* Style Footer */
 .footer {
     background-color: #f5f5f5;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
 }
 
 .footer p {
