@@ -55,7 +55,7 @@ h3 {
     background-color: #f8f8fa;
 }
 
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 1025px) {
     .section-1 {
         display: grid;
         grid-template-rows:  1fr [content] 3fr 1fr;
@@ -88,9 +88,25 @@ h3 {
 .section-2-bg h2 {
     color: white;
     margin: 25px 0;
-    height: 50px;
 }
 
+/* Style Section 3 */
+.section-3-bg {
+    width: 100vw;
+    background-color: #f8f8fa;
+}
+
+.section-3-bg h2 {
+    margin: 25px 0;
+}
+
+.works-card {
+    max-width: 900px;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 16px rgba(249, 61, 89, 0.08);
+    margin-bottom: 50px;
+}
 
 
 /* Style Footer */
