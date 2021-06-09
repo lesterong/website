@@ -61,6 +61,28 @@ h4 {
     background-color: #f8f8fa;
 }
 
+@media screen and (max-width: 1024px) {
+    .section-1 {
+        display: grid;
+        /* grid-template-rows: 1fr [text] 1fr; Turn on when image is present */
+    }
+    
+    .main-text {
+        /* grid-row: text; Turn on when image is present */ 
+        justify-self: center;
+        align-self: center;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+}
+
+.main-text {
+    text-align: center;
+}
+
 @media only screen and (min-width: 1025px) {
     .section-1 {
         display: grid;
