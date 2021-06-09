@@ -13,6 +13,7 @@ h1 {
     font-weight: 800;
     background: linear-gradient(94.47deg, #0044FF 0%, #0099FF 99.07%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -97,6 +98,7 @@ h4 {
 }
 
 .works-card {
+    width: 88vw;
     max-width: 900px;
     border-radius: 0px;
     border: none;
