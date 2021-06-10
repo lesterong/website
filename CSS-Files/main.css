@@ -6,6 +6,7 @@ body {
     font-family: 'Nunito Sans', 'sans-serif';
     font-size: 1rem;
     overflow-x: hidden;
+    background-color: #f8f8fa;
 }
 
 /* Set font for headings */
@@ -39,7 +40,6 @@ h3 {
 .navbar-style {
     font-family: 'Nunito';
     font-weight: 700;
-    background-color: #f8f8fa;
 }
 
 .navbar-style a {
@@ -54,7 +54,6 @@ h3 {
 /* Style Section 1 */
 .section-1-bg {
     height: calc(100vh - 64px);
-    background-color: #f8f8fa;
 }
 
 @media screen and (max-width: 1024px) {
@@ -108,7 +107,6 @@ h3 {
 /* Style Section 3 */
 .section-3-bg {
     width: 100vw;
-    background-color: #f8f8fa;
 }
 
 .works-card {
