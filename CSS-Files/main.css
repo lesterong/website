@@ -29,8 +29,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Nunito', sans-serif;
-    font-size: 0.875rem;
+    
 }
 
 /* Set sizing of Logo  */
@@ -135,8 +134,9 @@ h4 {
 }
 
 .works-cat {
-   margin-bottom: 12px;
-   color: #a9a9a9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.875rem;
+    color: #a9a9a9;
 }
 
 .works-image {
