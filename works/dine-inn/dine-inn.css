@@ -1,0 +1,19 @@
+#dineInnLogo {
+    height: 60px;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+
+.task {
+    display: flex;
+    align-items: center;
+}
+
+.task-text p:nth-of-type(1) {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.875rem;
+    color: #000;
+}
