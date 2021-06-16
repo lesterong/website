@@ -1,3 +1,7 @@
+:root {
+    --dine-inn: #f93d59;
+}
+
 #dineInnLogo {
     height: 60px;
 }
@@ -19,4 +23,16 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 0.875rem;
     color: #000;
+}
+
+#section-1 {
+    height: calc(100vh - 64px);
+}
+
+#problemContainer {
+    background-color: var(--dine-inn);
+    width: 100vw;
+    height: 16rem;
+    border-radius: 60px;
+    color: white;
 }
