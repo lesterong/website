@@ -43,7 +43,7 @@ h1 {
 #problemContainer {
     background-color: var(--dine-inn);
     width: 100vw;
-    height: 16rem;
+    height: auto;
     border-radius: 50px;
     color: white;
 }
