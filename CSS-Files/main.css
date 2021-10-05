@@ -1,6 +1,11 @@
 /* Import Nunito Sans and Nunito */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&family=Nunito:wght@700&display=swap');
 
+.banner-color {
+    background: #eee;
+    border-radius: 0;
+}
+
 /* Set font for entire website */
 body {
     font-family: 'Nunito Sans', 'sans-serif';
